@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.form{
+    background-color: #ffffff; 
+    border-radius: 5px;
+}
+
+
+.img{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+}
+  
+.container a {
+    background-size: 100%;
+    color: #000;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+hr{
+    background-color: rgb(8, 6, 6); 
+    color: rgb(5, 2, 2); 
+    height: 1px;
+}
+.container-image{
+    display: inline-block;
+    width: 230px;
+    
+}
+
+.main-image{
+    display: inline-block; 
+    max-width: 280px;
+}
+
+.container-text{
+    
+    display: inline-block; 
+    width: 450px;
+
+}
+
+.header-text{
+    white-space: nowrap;
+    font-size: 20px; 
+    color: #000000;
+}
+
+.base-text{
+    font-size: 16px; 
+    line-height: 22px; 
+    color: #000000;
+}
+
+.btn {
+    display: inline-block; 
+    background: #383f44; 
+    color: #fff; 
+    padding: 1rem 5rem; 
+    text-decoration: none;
+    border-radius: 3px; 
+    margin: 15px;
+    align-content: center;
+    align-items: center;
+}
+
+.ez_text{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Koulen', cursive;
+    font-size: 25px;
+
+}
+
+
+
+.popular{
+    display: inline-block; 
+    width: 290px; 
+    vertical-align: middle;
+}
+
+.popular-image{
+    display: block; 
+    max-width: 270px;
+}
+
+.container-popular{
+    display: inline-block; 
+    width: 290px; 
+    vertical-align: middle;
+}
+
+.ez_text2{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Koulen', cursive;
+    font-size: 25px;
+}
+
+.container-items{
+    display: inline-block; 
+    width: 190px; 
+}
+
+.items-image{
+    display: block;
+    max-width: 200px;
+    align-items: center;
+}
